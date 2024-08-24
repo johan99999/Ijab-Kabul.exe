@@ -101,7 +101,7 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(611, 36);
+            this.menuStrip1.Size = new System.Drawing.Size(611, 24);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -113,7 +113,7 @@
             this.buttonReset.TabIndex = 6;
             this.buttonReset.Text = "Reset";
             this.buttonReset.UseVisualStyleBackColor = true;
-            this.buttonReset.Click += new System.EventHandler(this.button1_Click_1);
+            this.buttonReset.Click += new System.EventHandler(this.buttonReset_Click);
             // 
             // buttonCopy
             // 
@@ -221,7 +221,6 @@
             this.labelmaskawin.Name = "labelmaskawin";
             this.labelmaskawin.Size = new System.Drawing.Size(0, 20);
             this.labelmaskawin.TabIndex = 2;
-            this.labelmaskawin.TextChanged += new System.EventHandler(this.buttonOK_Click);
             // 
             // labelNM
             // 
@@ -230,7 +229,7 @@
             this.labelNM.Name = "labelNM";
             this.labelNM.Size = new System.Drawing.Size(0, 20);
             this.labelNM.TabIndex = 1;
-            this.labelNM.Click += new System.EventHandler(this.label4_Click);
+            this.labelNM.Click += new System.EventHandler(this.buttonReset_Click);
             // 
             // labelterima
             // 
@@ -239,13 +238,13 @@
             this.labelterima.Name = "labelterima";
             this.labelterima.Size = new System.Drawing.Size(0, 20);
             this.labelterima.TabIndex = 0;
-            this.labelterima.TextChanged += new System.EventHandler(this.buttonOK_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.BackgroundImage = global::IjabKabul.Properties.Resources.What_are_the_birth_month_flowers_and_their_meaning_;
             this.ClientSize = new System.Drawing.Size(611, 677);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

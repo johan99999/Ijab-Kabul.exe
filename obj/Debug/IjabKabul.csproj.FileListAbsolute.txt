@@ -8,3 +8,13 @@ C:\Users\pc\Desktop\Project\GUI\IjabKabul\obj\Debug\IjabKabul.csproj.GenerateRes
 C:\Users\pc\Desktop\Project\GUI\IjabKabul\obj\Debug\IjabKabul.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\Project\GUI\IjabKabul\obj\Debug\IjabKabul.exe
 C:\Users\pc\Desktop\Project\GUI\IjabKabul\obj\Debug\IjabKabul.pdb
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\bin\Debug\IjabKabul.exe.config
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\bin\Debug\IjabKabul.exe
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\bin\Debug\IjabKabul.pdb
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\obj\Debug\IjabKabul.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\obj\Debug\IjabKabul.Form1.resources
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\obj\Debug\IjabKabul.Properties.Resources.resources
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\obj\Debug\IjabKabul.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\obj\Debug\IjabKabul.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\obj\Debug\IjabKabul.exe
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\obj\Debug\IjabKabul.pdb

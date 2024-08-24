@@ -37,13 +37,39 @@ namespace IjabKabul
 
         }
 
+        private void buttonReset_Click(object sender, EventArgs e)
+        {
+
+            textBoxNMW.Text = "";
+            textBoxNAMW.Text = "";
+            textBoxMahar.Text = "";
+            textBoxTMahar.Text = "";
+            labelterima.Text = "";
+            labelNM.Text = "";
+            labelmaskawin.Text = "";
+            labelmk.Text = "";
+            labeldibayar.Text = "";
+
+            this.Refresh();
+        }
+
         private void buttonOK_Click(object sender, EventArgs e)
         {
             labelterima.Text = "Saya terima nikahnya : ";
             labelNM.Text = textBoxNMW.Text + " Binti " + textBoxNAMW.Text;
-            labelmaskawin.Text = "Dengan mas kawin : ";
-            labelmk.Text = textBoxMahar.Text + " Senilai "+ textBoxTMahar.Text;
-            labeldibayar.Text = "Dibayar tunai/utang";
+            labelmaskawin.Text = "Dengan mas kawin : " + textBoxMahar.Text;
+            if (textBoxTMahar.Text.Length <= 0)
+            {
+                labelmk.Text = "Dibayar tunai/utang";
+                labeldibayar.Text = "" + "";
+            }
+            else
+            {
+                labelmk.Text = " Senilai " + textBoxTMahar.Text;
+                labeldibayar.Text = "Dibayar tunai/utang";
+            }
+            
         }
+
     }
 }
