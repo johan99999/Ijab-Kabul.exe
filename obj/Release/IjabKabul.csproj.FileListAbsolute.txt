@@ -1,0 +1,10 @@
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\bin\Release\IjabKabul.exe.config
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\bin\Release\IjabKabul.exe
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\bin\Release\IjabKabul.pdb
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\obj\Release\IjabKabul.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\obj\Release\IjabKabul.Form1.resources
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\obj\Release\IjabKabul.Properties.Resources.resources
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\obj\Release\IjabKabul.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\obj\Release\IjabKabul.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\obj\Release\IjabKabul.exe
+C:\Users\pc\Desktop\Project\Ijab-Kabul.exe\obj\Release\IjabKabul.pdb

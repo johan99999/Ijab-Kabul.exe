@@ -3,12 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\Project\\Ijab-Kabul.exe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E63228E0-51D7-456E-9301-620A825ADF87}|IjabKabul.csproj|C:\\Users\\pc\\Desktop\\Project\\Ijab-Kabul.exe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E63228E0-51D7-456E-9301-620A825ADF87}|IjabKabul.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|IjabKabul||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E63228E0-51D7-456E-9301-620A825ADF87}|IjabKabul.csproj|c:\\users\\pc\\desktop\\project\\ijab-kabul.exe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E63228E0-51D7-456E-9301-620A825ADF87}|IjabKabul.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E63228E0-51D7-456E-9301-620A825ADF87}|IjabKabul.csproj|c:\\users\\pc\\desktop\\project\\ijab-kabul.exe\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +21,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Project\\Ijab-Kabul.exe\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Project\\Ijab-Kabul.exe\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAUwEoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T09:45:06.816Z",
-              "IsPinned": true,
+              "Title": "IjabKabul",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Project\\Ijab-Kabul.exe\\IjabKabul.csproj",
+              "RelativeDocumentMoniker": "IjabKabul.csproj",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Project\\Ijab-Kabul.exe\\IjabKabul.csproj",
+              "RelativeToolTip": "IjabKabul.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-25T02:50:18.052Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Project\\Ijab-Kabul.exe\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\Project\\Ijab-Kabul.exe\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T09:32:18.156Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

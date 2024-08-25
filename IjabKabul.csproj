@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\IjabKabul.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -85,6 +88,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\What are the birth month flowers and their meaning_.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\IjabKabul.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
