@@ -44,11 +44,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxMahar = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.labeldibayar = new System.Windows.Forms.Label();
-            this.labelmk = new System.Windows.Forms.Label();
-            this.labelmaskawin = new System.Windows.Forms.Label();
-            this.labelNM = new System.Windows.Forms.Label();
-            this.labelterima = new System.Windows.Forms.Label();
+            this.textBoxOutput = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -101,7 +97,7 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(611, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(611, 36);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -123,6 +119,7 @@
             this.buttonCopy.TabIndex = 7;
             this.buttonCopy.Text = "Copy";
             this.buttonCopy.UseVisualStyleBackColor = true;
+            this.buttonCopy.Click += new System.EventHandler(this.buttonCopy_Click);
             // 
             // buttonClose
             // 
@@ -130,8 +127,9 @@
             this.buttonClose.Name = "buttonClose";
             this.buttonClose.Size = new System.Drawing.Size(173, 58);
             this.buttonClose.TabIndex = 8;
-            this.buttonClose.Text = "Copy";
+            this.buttonClose.Text = "Close";
             this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // panel1
             // 
@@ -187,57 +185,20 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.labeldibayar);
-            this.panel2.Controls.Add(this.labelmk);
-            this.panel2.Controls.Add(this.labelmaskawin);
-            this.panel2.Controls.Add(this.labelNM);
-            this.panel2.Controls.Add(this.labelterima);
+            this.panel2.Controls.Add(this.textBoxOutput);
             this.panel2.Location = new System.Drawing.Point(16, 215);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(578, 364);
             this.panel2.TabIndex = 10;
             // 
-            // labeldibayar
+            // textBoxOutput
             // 
-            this.labeldibayar.AutoSize = true;
-            this.labeldibayar.Location = new System.Drawing.Point(103, 225);
-            this.labeldibayar.Name = "labeldibayar";
-            this.labeldibayar.Size = new System.Drawing.Size(0, 20);
-            this.labeldibayar.TabIndex = 4;
-            this.labeldibayar.TextChanged += new System.EventHandler(this.buttonOK_Click);
-            // 
-            // labelmk
-            // 
-            this.labelmk.AutoSize = true;
-            this.labelmk.Location = new System.Drawing.Point(103, 172);
-            this.labelmk.Name = "labelmk";
-            this.labelmk.Size = new System.Drawing.Size(0, 20);
-            this.labelmk.TabIndex = 3;
-            // 
-            // labelmaskawin
-            // 
-            this.labelmaskawin.AutoSize = true;
-            this.labelmaskawin.Location = new System.Drawing.Point(103, 118);
-            this.labelmaskawin.Name = "labelmaskawin";
-            this.labelmaskawin.Size = new System.Drawing.Size(0, 20);
-            this.labelmaskawin.TabIndex = 2;
-            // 
-            // labelNM
-            // 
-            this.labelNM.AutoSize = true;
-            this.labelNM.Location = new System.Drawing.Point(103, 70);
-            this.labelNM.Name = "labelNM";
-            this.labelNM.Size = new System.Drawing.Size(0, 20);
-            this.labelNM.TabIndex = 1;
-            this.labelNM.Click += new System.EventHandler(this.buttonReset_Click);
-            // 
-            // labelterima
-            // 
-            this.labelterima.AutoSize = true;
-            this.labelterima.Location = new System.Drawing.Point(103, 25);
-            this.labelterima.Name = "labelterima";
-            this.labelterima.Size = new System.Drawing.Size(0, 20);
-            this.labelterima.TabIndex = 0;
+            this.textBoxOutput.Location = new System.Drawing.Point(21, 26);
+            this.textBoxOutput.Multiline = true;
+            this.textBoxOutput.Name = "textBoxOutput";
+            this.textBoxOutput.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBoxOutput.Size = new System.Drawing.Size(537, 311);
+            this.textBoxOutput.TabIndex = 5;
             // 
             // Form1
             // 
@@ -278,15 +239,11 @@
         private System.Windows.Forms.Button buttonClose;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label labelmaskawin;
-        private System.Windows.Forms.Label labelNM;
-        private System.Windows.Forms.Label labelterima;
-        private System.Windows.Forms.Label labelmk;
-        private System.Windows.Forms.Label labeldibayar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBoxMahar;
         private System.Windows.Forms.TextBox textBoxTMahar;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBoxOutput;
     }
 }
 

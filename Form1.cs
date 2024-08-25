@@ -44,32 +44,41 @@ namespace IjabKabul
             textBoxNAMW.Text = "";
             textBoxMahar.Text = "";
             textBoxTMahar.Text = "";
-            labelterima.Text = "";
-            labelNM.Text = "";
-            labelmaskawin.Text = "";
-            labelmk.Text = "";
-            labeldibayar.Text = "";
-
+            textBoxOutput.Text = "";
             this.Refresh();
         }
 
         private void buttonOK_Click(object sender, EventArgs e)
         {
-            labelterima.Text = "Saya terima nikahnya : ";
-            labelNM.Text = textBoxNMW.Text + " Binti " + textBoxNAMW.Text;
-            labelmaskawin.Text = "Dengan mas kawin : " + textBoxMahar.Text;
-            if (textBoxTMahar.Text.Length <= 0)
+            if (string.IsNullOrWhiteSpace(textBoxNMW.Text) || string.IsNullOrWhiteSpace(textBoxNAMW.Text) || string.IsNullOrWhiteSpace(textBoxMahar.Text) || string.IsNullOrWhiteSpace(textBoxTMahar.Text))
             {
-                labelmk.Text = "Dibayar tunai/utang";
-                labeldibayar.Text = "" + "";
+                MessageBox.Show("Field tidak boleh kosong!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return; // Hentikan eksekusi lebih lanjut
             }
-            else
-            {
-                labelmk.Text = " Senilai " + textBoxTMahar.Text;
-                labeldibayar.Text = "Dibayar tunai/utang";
-            }
+
+            textBoxOutput.Text = "Saya terima nikahnya, " + textBoxNMW.Text +
+                " Binti " + textBoxNAMW.Text + " Dengan Mas Kawin, " + textBoxMahar.Text
+                + " Senilai/Sejumlah " + textBoxTMahar.Text +
+                " Dibayar tunai/utang. ";
             
         }
 
+        private void buttonClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void buttonCopy_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(textBoxOutput.Text))
+            {
+                Clipboard.SetText(textBoxOutput.Text);
+                MessageBox.Show("Teks berhasil disalin!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("TextBox kosong, tidak ada yang disalin.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
 }
