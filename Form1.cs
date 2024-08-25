@@ -80,5 +80,10 @@ namespace IjabKabul
                 MessageBox.Show("TextBox kosong, tidak ada yang disalin.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void textBoxOutput_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
