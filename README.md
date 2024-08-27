@@ -15,7 +15,7 @@ Cara Penggunaan :
 
 
 Catatan :
-Tampilan pada aplikasi mungkin akan blur, jadi untuk mengatasinya buka properties pada icon aplikasi, masuk ke compatibility dan klik change DPI setting
+Tampilan pada aplikasi mungkin akan blur, jadi untuk mengatasinya buka properties pada icon aplikasi, masuk ke compatibility dan klik change high DPI setting, lalu centang kedua check box seperti di screenshot
 ![image](https://github.com/user-attachments/assets/a41e9e1e-68e1-483e-ac94-1d34dff4bad6)
 
 
